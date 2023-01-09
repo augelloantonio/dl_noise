@@ -57,3 +57,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# CSV
+*.csv
+
+# h5 files
+*.h5

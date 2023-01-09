@@ -163,6 +163,7 @@ cnn_model.summary()
 
 cnn_model_history = cnn_model.fit(X_train, y_train, epochs=10, batch_size = 10, validation_data = (X_test, y_test))
 
+
 # evaluate the model
 print("********")
 scores = cnn_model.evaluate(X_train, y_train, verbose=0)
